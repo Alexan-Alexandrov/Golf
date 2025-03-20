@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+namespace Golf{
 public class Player : MonoBehaviour
 {
 
@@ -57,4 +58,5 @@ public class Player : MonoBehaviour
 
         Debug.Log(collider, this);
     }
+}
 }
